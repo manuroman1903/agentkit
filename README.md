@@ -310,6 +310,15 @@ AgentKit is proud to have support for the following protocols, frameworks, walle
 
 Note: We support all EVM and SVM networks, with deep protocol support for the above networks. Please don't hesitate to make contributions to add more support for your preferred networks.
 
+### Utilities (TypeScript)
+
+A couple of small helpers live in `src/utils`:
+
+- `isHexString(value, bytes?)`
+- `isEvmAddress(value)`
+- `shortenAddress(address)`
+
+These are handy for validating user inputs and making logs/UI friendlier.
 ## 📝 License
 
 AgentKit is licensed under the [Apache-2.0](LICENSE.md) license.
